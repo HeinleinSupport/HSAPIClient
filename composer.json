@@ -1,1 +1,17 @@
-
+{
+  "name": "HSAPIClient",
+  "description": "A Client for the Heinlein Api",
+  "license": "BSD-3-Clause",
+  "type": "project",
+  "keywords": [
+    "json-rpc",
+    "api"
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Heinlein\\HSAPIClient\\": "/"
+    }
+  }
+}
